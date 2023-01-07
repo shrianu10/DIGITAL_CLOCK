@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url('bubble.jpg');
+    height: 100vh;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+  #clock2{
+    position: static;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin:30px auto;
+    font-size: 155px;
+    font-weight: 330px;
+  }
+  #clock{
+    /* position: static; */
+    padding:15px;
+    margin:30px auto;
+    height: 30%;
+    width:70%;
+    text-align:center;
+    display: block;
+    justify-content: center;
+    background-color: lightgray;
+    border: 4px solid black;
+    border-radius: 10px;
+    opacity: 0.5;
+  }
+  
+header h1 {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: transparent;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;   
+}
+header .header-1{
+  background-image: repeating-radial-gradient(farthest-side at 5px 5px,#71c4f1, #58eeee, rgb(202, 237, 98));
+}
